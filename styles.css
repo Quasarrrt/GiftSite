@@ -1,0 +1,505 @@
+*{
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+header{
+background: #FAFAFA;
+width: 1440px;
+height: 116px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+.logo{
+    font-family: 'Homemade Apple', cursive;
+    margin-left: 80px;
+}
+.menuButtons{
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+width: auto;
+margin-right: 31px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    margin-left: 433px;
+}
+.blog{
+    margin-right: 371px;
+}
+.finder{
+height: 43.5px;
+width: 150px;
+border: 1px solid #F7941E;
+box-sizing: border-box;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+color: #F7941E;
+background: transparent;
+margin-right: 34px;
+}
+.block1{
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F1F1F2;
+}
+.textBlock{
+    display: flex;
+    flex-direction: column;
+    margin-left: 162px;
+   
+}
+.text1{
+width: 433px;
+height: 206px;
+font-size: 56px;
+line-height: 69px;
+color: #000000;
+text-align: left;
+margin-bottom: 36px;
+}
+.text2{
+    width: 422px;
+    height: 57px;
+    font-size: 20px;
+line-height: 28px;
+color: #000000;
+text-align: left;
+margin-bottom: 52px;
+}
+.findGift{
+height: 60px;
+width: 200px;
+background: #F7941E;
+border-radius: 5px;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.image1{
+    width: 719px;
+    height: 700px;
+    object-fit: cover;
+}
+.block2{
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    
+    align-items: center;
+    background: #F1F1F2;
+}
+.textBlock2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 104px;
+    
+    
+}
+.image2{
+    width: 719px;
+    height: 600px;
+    object-fit: cover;
+}
+.text3{
+    font-size: 32px;
+line-height: 45px;
+color: #000000;
+text-align: left;
+margin-bottom: 23px;
+}
+.text4{
+    width: 441px;
+    height: 169px;
+    font-size: 20px;
+line-height: 28px;
+text-align: justify;
+color: #000000;
+text-align: left;
+margin-bottom: 35px;
+}
+.more{
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+color: #F7941E;
+border: 1px solid #F7941E;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.container{
+    width: 1440px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+.textBlock3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 96px;
+    margin-bottom: 64px;
+}
+.text5{
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.text6{
+    font-size: 18px;
+line-height: 24px;
+color: #000000;
+text-align: center;
+}
+.photoBlock{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr ;
+   
+    margin-right: 135px;
+    margin-left: 135px;
+    margin-bottom: 137px;
+}
+
+    .pic{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+.picText{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.phText{
+    width: 222px;
+    height: 24px;
+    margin: 24px 24px 74px 24px;
+}
+.seeMore{
+    width: 67px;
+    height: 22px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+}
+.belowPic{
+    width: 270px;
+    height: 166px;
+    background: #FAFAFA;
+    
+}
+.belowPic:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.103);
+    background: #FFFFFF;
+}
+.orangeContainer{
+    width: 1440px;
+    height: 240px;
+    background: #F7941E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text7{
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+}
+.buttonBlock{
+    display: flex;
+    justify-content: space-between;
+
+}
+.gift{
+    width: 200px;
+    height: 50px;
+    background: #231F20;
+border-radius: 5px;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+justify-content:  center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-right: 16px;
+margin-left: 229px;
+
+}
+.how{
+width: 200px;
+height: 50px;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+justify-content:  center;
+text-transform: uppercase;
+color: #000000;
+background: transparent;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.blogContainer{
+    width: 1440px;
+    height: 1026px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleBlock{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.text8{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-top: 88px;
+    margin-bottom: 23px;
+}
+.text9{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 71px;
+}
+
+.quoteContainer{
+width: 1170px;
+height: 370px;
+background: #231F20;
+display: flex;
+}
+.weddingPic{
+    width: 400px;
+    height: 370px;
+    object-fit: cover;
+}
+.quoteBlock{
+    display: flex;
+    flex-direction: column;
+    margin-left: 78px;
+}
+.quoteAuthor{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+    margin-top: 63px;
+}
+
+.quote{
+width: 492px;
+height: 125px;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+margin-bottom: 60px;
+}
+.read{
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+margin-bottom: 49px;
+}
+
+.articleBlock{
+    width: 1170px;
+    display: flex;
+margin-top: 40px;
+justify-content: space-between;
+margin-bottom: 80px;
+
+}
+.art{
+    width: 570px;
+    height: 290px;
+    background: #FFFFFF;
+    display: flex;
+   flex-direction: column;
+
+}
+
+.art:hover{
+background: #FFFFFF;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.titleText{
+    width: 474px;
+    height: 68px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-top: 48px;
+    margin-left: 48px;
+    
+}
+.artText{
+    width: 474px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-left: 48px;
+}
+.readMore{
+    font-size: 14px;
+line-height: 20px;
+color: #000000;
+margin-bottom: 50px;
+margin-left: 48px;
+}
+footer{
+    width: 1440px;
+    height: 410px;
+    background: #FAFAFA;
+
+}
+.footerMenu{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.foot{
+    font-size: 14px;
+line-height: 20px;
+color: #000000;
+font-weight: bold;
+margin-top: 115px;
+margin-bottom: 53px;
+
+}
+.footHome{
+    margin-right: 81px;
+    margin-left: 406px;
+}
+.footBlog{
+    margin-left: 54px;
+    margin-right: 420px;
+}
+.footLogo{
+    font-family: Homemade Apple;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 39px;
+    color: #F7941E;
+    margin-left: 141px;
+    margin-right: 141px;
+    margin-top: 106px;
+    margin-bottom: 43px;
+    
+}
+hr{
+    width: 1000px;
+    
+}
+.socialLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 55.8px;
+    margin-bottom: 72.8px;
+}
+.sLogo{
+    width: 40px;
+    height: 40px;
+    margin-right: 25.6px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.facebook{
+    background-image: url(facebook.png);
+    margin-left: 572.8px;
+}
+.twitter{
+    background-image: url(twitter.png);
+}
+.instagram{
+    background-image: url(instagram.png);
+
+}
+.youtube{
+    background-image: url(youtube.png);
+}
+.pinterest{
+    background-image: url(pinterest.png);
+    margin-right: 572.8px;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    
+
+}
+.years{
+    margin-right: 14px;
+    margin-left: 618px;
+    font-size: 14px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+}
+.rights{
+    margin-right: 613px;
+    font-size: 14px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+}
+button{
+
+    border: 0;
+}
+button:focus {
+    outline: none !important;
+}
